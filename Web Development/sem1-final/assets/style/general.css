@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700');
+
+:root {
+    --background: #212121;
+    --navbar: #343434;
+    --primary: #265f5f;
+    --secondary: #272525;
+    --accent: #1da1f2;
+    --text: #fff;
+}
+
+body {
+    background: var(--background);
+    font-family: "Open Sans", sans-serif;
+    color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile-photo {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.justify {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.project-link {
+    color: var(--text);
+    text-decoration: none;
+}

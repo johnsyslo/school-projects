@@ -1,0 +1,31 @@
+/* Social Links */
+#header .social-links {
+    display: inline-flex;
+}
+
+#header .social-links a {
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    background: var(--navbar);
+    color: var(--text);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#header .icon {
+    padding-top: .5rem;
+}
+
+#snapchat {
+    -webkit-text-stroke: 0.4px white;
+}
+
+#header .social-links a+a {
+    margin-left: 8px;
+}
+
+#header .social-links a:hover {
+    background: var(--accent)
+}

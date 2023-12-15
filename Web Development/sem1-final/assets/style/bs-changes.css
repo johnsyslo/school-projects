@@ -1,0 +1,24 @@
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.navbar {
+    background: var(--navbar);
+}
+
+.navbar a {
+    color: var(--text);
+}
+
+.navbar a:hover {
+    color: var(--accent);
+}
+
+.navbar a:focus {
+    color: var(--accent);
+}
+
+.navbar .nav-link.active {
+    color: var(--accent);
+}
